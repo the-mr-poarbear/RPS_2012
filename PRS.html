@@ -1,0 +1,39 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prs</title>
+    <link href="style/prs.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body style="background-color: var(--primary); ">
+    <h1 class="text-center mt-4" style="color:white" id="whoWon">Rock Paper Scissors</h1>
+    <h1 class="text-center text-white mt-4" id="scores">You 0 : AI 0</h1>
+    <h2 class="text-center text-white my-4" id="compChose">Your Turn</h2>
+    <div class="PrsSec d-flex  justify-content-center " >
+            
+            <div>
+                <img class="btn " src="assets/images/paper 1.png">
+                <input class="d-block rad" type="radio" id="paper" name="option" value="paper">
+            </div>
+
+            <div>
+                <img class="btn" src="assets/images/rock 1.png">
+                <input class="d-block rad" type="radio" id="rock" name="option" value="rock">
+            </div>
+
+            <div>
+                <img class="btn" src="assets/images/two 1.png">
+                <input class="d-block rad" type="radio" id="scissors" name="option" value="scissors">
+            </div>
+            
+    </div>
+    <div class="w-100 d-flex justify-content-center mt-2" >
+        <button class=" fs-2 px-5 py-1 text-white playBtn" id="startBtn" >Start</button>
+    </div>
+    
+    <script src="script/Prs.js"></script> 
+</body>
+
+</html>

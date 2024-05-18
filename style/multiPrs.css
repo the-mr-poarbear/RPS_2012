@@ -1,0 +1,52 @@
+:root{
+    --primary : #3B2A9F;
+    --primary-100 : #5141AA ;
+    --pink : #7a1c73;
+}
+
+@font-face {
+    font-family: 'Bold';
+    font-weight: 700;
+    src: url('../assets/fonts/Poppins-Bold.ttf') ;
+       
+}
+
+*{
+    font-family: "Bold";
+}
+
+body{
+    background-color: var(--primary);
+    
+}
+
+.PrsSec1{
+    background-color: var(--primary-100);
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.PrsSec2{
+    background-color: var(--pink);
+    border-radius: 30px;
+    padding: 20px; 
+}
+
+.rad{
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+.playBtn{
+    border-radius: 20px;
+    border: none;
+    background-color: var(--primary);
+}
+
+h1{
+    color:white;
+}
+
+#p1 , #p2 {
+    width: 40%;
+}

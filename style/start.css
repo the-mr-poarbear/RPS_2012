@@ -1,0 +1,38 @@
+:root{
+    --primary : #3B2A9F
+}
+
+@font-face {
+    font-family: 'Bold';
+    font-weight: 700;
+    src: url('../assets/fonts/Poppins-Bold.ttf') ;
+       
+}
+
+*{
+    font-family: "Bold";
+}
+
+body{
+    background-color: var(--primary);
+    
+}
+button{
+    border-radius: 20px;
+    margin-top: 200px;
+    border-width:3px;
+    border-color: white;
+    background-color: var(--primary);
+    
+}
+
+button:hover{
+    zoom : 102%;
+    transition: 0.1s;
+    border-top-width: 20px;
+}
+
+button:active{
+    border-width:3px;
+}
+

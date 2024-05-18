@@ -1,0 +1,43 @@
+
+@font-face {
+    font-family: 'Bold';
+    font-weight: 700;
+    src: url('../assets/fonts/Poppins-Bold.ttf') ;
+       
+}
+
+:root{
+    --primary : #3B2A9F
+    
+}
+
+
+*{
+    font-family: "Bold";
+}
+
+body{
+    background-color: var(--primary);
+    
+}
+
+.PrsSec{
+    background-color: var(--primary);
+  
+}
+
+.rad{
+    margin-left: 120px;
+    margin-top: 20px;
+}
+
+.playBtn{
+    border-radius: 20px;
+    border-width:3px;
+    border-color: white;
+    background-color: var(--primary);
+}
+
+h1{
+    color:white;
+}
